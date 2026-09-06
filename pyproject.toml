@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fakt-api"
+version = "0.1.0"
+description = "Python client for the fakt.no public job-market API (jobs, employers, salary, market, exports)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "fakt" }]
+keywords = ["api", "norway", "arbeidsmarked", "jobs", "job-market", "nav-data", "sdk"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["requests>=2.25"]
+
+[project.urls]
+Homepage = "https://github.com/Fakt-no/fakt-api-python"
+Repository = "https://github.com/Fakt-no/fakt-api-python"
+
+[tool.setuptools.packages.find]
+include = ["fakt_api*"]
