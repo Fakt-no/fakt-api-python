@@ -14,9 +14,13 @@ This package is only a thin HTTP wrapper around the public endpoints — it cont
 
 ## Install
 
-```bash
-pip install fakt-api
-```
+> **Not yet published to PyPI.** `pip install fakt-api` returns 404 today — the package is not on the index yet.
+>
+> Until it is published, install straight from the repository:
+>
+> ```bash
+> pip install "git+https://github.com/Fakt-no/fakt-api-python"
+> ```
 
 ## Quick start
 
